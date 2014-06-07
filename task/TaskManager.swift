@@ -19,7 +19,6 @@ class TaskManager: NSObject {
     var tasks = Task[]()
     
     func newTask(name: String, desc: String) {
-//        tasks += Task(name: name, desc: desc)
         tasks += Task(name: name, desc: desc)
     }
     
